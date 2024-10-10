@@ -1,0 +1,9 @@
+[package]
+name = "nmed"
+version = "0.1.0"
+edition = "2021"
+description = "No Modifier EDitor: A simple text editor that requires no modifier keys like Ctrl or Alt."
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+ratatui = "0.28.1"
